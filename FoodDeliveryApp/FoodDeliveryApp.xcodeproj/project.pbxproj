@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		620EE3522BD13D650073EC4B /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620EE3512BD13D650073EC4B /* AppCoordinator.swift */; };
 		620EE3542BD13F0E0073EC4B /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620EE3532BD13F0E0073EC4B /* OnboardingCoordinator.swift */; };
+		620EE3562BD15D860073EC4B /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620EE3552BD15D860073EC4B /* HomeCoordinator.swift */; };
+		620EE3582BD15DE60073EC4B /* OrderCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620EE3572BD15DE60073EC4B /* OrderCoordinator.swift */; };
+		620EE35A2BD15E4C0073EC4B /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620EE3592BD15E4C0073EC4B /* ListCoordinator.swift */; };
+		620EE35C2BD15E8B0073EC4B /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620EE35B2BD15E8B0073EC4B /* ProfileCoordinator.swift */; };
+		620EE35E2BD15ED00073EC4B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620EE35D2BD15ED00073EC4B /* TabBarController.swift */; };
 		628143362BCFE31600E22773 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 628143292BCFE31600E22773 /* Roboto-Medium.ttf */; };
 		628143372BCFE31600E22773 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6281432A2BCFE31600E22773 /* Roboto-Light.ttf */; };
 		628143382BCFE31600E22773 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6281432B2BCFE31600E22773 /* Roboto-Regular.ttf */; };
@@ -36,6 +41,11 @@
 /* Begin PBXFileReference section */
 		620EE3512BD13D650073EC4B /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		620EE3532BD13F0E0073EC4B /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		620EE3552BD15D860073EC4B /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		620EE3572BD15DE60073EC4B /* OrderCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCoordinator.swift; sourceTree = "<group>"; };
+		620EE3592BD15E4C0073EC4B /* ListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoordinator.swift; sourceTree = "<group>"; };
+		620EE35B2BD15E8B0073EC4B /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		620EE35D2BD15ED00073EC4B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		628143292BCFE31600E22773 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		6281432A2BCFE31600E22773 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		6281432B2BCFE31600E22773 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
@@ -163,6 +173,7 @@
 		62B8A7C92BD0E1B600D3BF6C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				620EE35D2BD15ED00073EC4B /* TabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -173,6 +184,10 @@
 				62B8A7CB2BD0E3EE00D3BF6C /* Coordinator.swift */,
 				620EE3512BD13D650073EC4B /* AppCoordinator.swift */,
 				620EE3532BD13F0E0073EC4B /* OnboardingCoordinator.swift */,
+				620EE3552BD15D860073EC4B /* HomeCoordinator.swift */,
+				620EE3572BD15DE60073EC4B /* OrderCoordinator.swift */,
+				620EE3592BD15E4C0073EC4B /* ListCoordinator.swift */,
+				620EE35B2BD15E8B0073EC4B /* ProfileCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -266,7 +281,12 @@
 				6281434A2BD0049100E22773 /* AppColors.swift in Sources */,
 				620EE3542BD13F0E0073EC4B /* OnboardingCoordinator.swift in Sources */,
 				620EE3522BD13D650073EC4B /* AppCoordinator.swift in Sources */,
+				620EE3582BD15DE60073EC4B /* OrderCoordinator.swift in Sources */,
 				62A19DEE2BCFC79C009806B0 /* SceneDelegate.swift in Sources */,
+				620EE35C2BD15E8B0073EC4B /* ProfileCoordinator.swift in Sources */,
+				620EE35A2BD15E4C0073EC4B /* ListCoordinator.swift in Sources */,
+				620EE3562BD15D860073EC4B /* HomeCoordinator.swift in Sources */,
+				620EE35E2BD15ED00073EC4B /* TabBarController.swift in Sources */,
 				628143472BD002A500E22773 /* UIColor+Extensiion.swift in Sources */,
 				62B8A7CC2BD0E3EE00D3BF6C /* Coordinator.swift in Sources */,
 			);
