@@ -28,6 +28,7 @@
 		62A19DF02BCFC79C009806B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A19DEF2BCFC79C009806B0 /* ViewController.swift */; };
 		62A19DF52BCFC79F009806B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62A19DF42BCFC79F009806B0 /* Assets.xcassets */; };
 		62A19DF82BCFC79F009806B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A19DF62BCFC79F009806B0 /* LaunchScreen.storyboard */; };
+		62B8A7CC2BD0E3EE00D3BF6C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B8A7CB2BD0E3EE00D3BF6C /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		62A19DF42BCFC79F009806B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62A19DF72BCFC79F009806B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62A19DF92BCFC79F009806B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B8A7CB2BD0E3EE00D3BF6C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		62A19DEA2BCFC79C009806B0 /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				62B8A7C82BD0E18200D3BF6C /* NavigationLayer */,
 				628143262BCFE2DE00E22773 /* Resources */,
 				62A19DEB2BCFC79C009806B0 /* AppDelegate.swift */,
 				62A19DED2BCFC79C009806B0 /* SceneDelegate.swift */,
@@ -142,6 +145,30 @@
 				62A19DF92BCFC79F009806B0 /* Info.plist */,
 			);
 			path = FoodDeliveryApp;
+			sourceTree = "<group>";
+		};
+		62B8A7C82BD0E18200D3BF6C /* NavigationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				62B8A7CA2BD0E1C000D3BF6C /* Coordinators */,
+				62B8A7C92BD0E1B600D3BF6C /* Controllers */,
+			);
+			path = NavigationLayer;
+			sourceTree = "<group>";
+		};
+		62B8A7C92BD0E1B600D3BF6C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		62B8A7CA2BD0E1C000D3BF6C /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				62B8A7CB2BD0E3EE00D3BF6C /* Coordinator.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +260,7 @@
 				6281434A2BD0049100E22773 /* AppColors.swift in Sources */,
 				62A19DEE2BCFC79C009806B0 /* SceneDelegate.swift in Sources */,
 				628143472BD002A500E22773 /* UIColor+Extensiion.swift in Sources */,
+				62B8A7CC2BD0E3EE00D3BF6C /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
