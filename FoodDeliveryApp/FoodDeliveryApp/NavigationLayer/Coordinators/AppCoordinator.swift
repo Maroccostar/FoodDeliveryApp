@@ -19,6 +19,7 @@ class AppCoordinator: Coordinator {
 
 // MARK: - Navigation methods
 private extension AppCoordinator {
+    
     func showOnboardingFlow() {
         guard let navigationController = navigationController else { return }
         let onboardingCoordinator = OnboardingCoordinator(type: .onboarding,  navigationController: navigationController, finishDelegate: self)

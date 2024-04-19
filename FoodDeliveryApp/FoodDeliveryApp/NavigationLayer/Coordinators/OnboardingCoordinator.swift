@@ -10,7 +10,6 @@ import UIKit
 class OnboardingCoordinator: Coordinator {
     override func start() {
         let vc = ViewController()
-        vc.view.backgroundColor = .red
         navigationController?.pushViewController(vc, animated: true)
     }
     override func finish() {
