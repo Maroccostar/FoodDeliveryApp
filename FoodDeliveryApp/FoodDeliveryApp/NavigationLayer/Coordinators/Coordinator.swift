@@ -73,6 +73,4 @@ class Coordinator: CoordinatorProtocol {
     func finish() {
         print("Coordinator finish")
     }
-    
-    
 }
