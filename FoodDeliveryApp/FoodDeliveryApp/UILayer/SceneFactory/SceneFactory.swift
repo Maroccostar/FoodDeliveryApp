@@ -17,7 +17,7 @@ struct SceneFactory {
         onboardingCoordinator.start()
     }
     
-    
+    // MARK: - Onboarding scene
     static func makeOnboardingScene(coordinator: OnboardingCoordinator) -> OnboardingViewController {
         var pages = [OnboardingPartViewController]()
         
