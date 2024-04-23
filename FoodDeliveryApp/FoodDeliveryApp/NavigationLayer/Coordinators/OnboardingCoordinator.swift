@@ -7,13 +7,26 @@
 
 import UIKit
 
+// MARK: - OnboardingCoordinator
 class OnboardingCoordinator: Coordinator {
+    
+    // MARK: - Properties
+    private let factory = SceneFactory.self
+    
+    // MARK: - Methods
     override func start() {
-        let vc = ViewController()
-        navigationController?.pushViewController(vc, animated: true)
+        showOnBoarding()
     }
     override func finish() {
         print("AppCoordinator finish")
+        finishDelegate?.coordinatorDidFinish(childCoordinators: self)
     }
 }
 
+// MARK: - Navigation
+private extension OnboardingCoordinator {
+    func showOnBoarding() {
+        let viewController = factory.makeOnboardingScene(coordinator: self)
+        navigationController?.pushViewController(viewController, animated: true)
+    }
+}

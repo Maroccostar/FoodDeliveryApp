@@ -30,12 +30,17 @@
 		628143452BCFE6BB00E22773 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628143442BCFE6BB00E22773 /* UIFont+Extension.swift */; };
 		628143472BD002A500E22773 /* UIColor+Extensiion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628143462BD002A500E22773 /* UIColor+Extensiion.swift */; };
 		6281434A2BD0049100E22773 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628143492BD0049100E22773 /* AppColors.swift */; };
+		6285186E2BD2A19A00FD55A2 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6285186D2BD2A19A00FD55A2 /* OnboardingViewController.swift */; };
+		628518702BD2A25500FD55A2 /* OnboardingViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6285186F2BD2A25500FD55A2 /* OnboardingViewPresenter.swift */; };
+		629C9D8B2BD6A59300BA4082 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629C9D8A2BD6A59300BA4082 /* UserStorage.swift */; };
+		629C9D8E2BD6A89E00BA4082 /* SceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629C9D8D2BD6A89E00BA4082 /* SceneFactory.swift */; };
 		62A19DEC2BCFC79C009806B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A19DEB2BCFC79C009806B0 /* AppDelegate.swift */; };
 		62A19DEE2BCFC79C009806B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A19DED2BCFC79C009806B0 /* SceneDelegate.swift */; };
 		62A19DF02BCFC79C009806B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A19DEF2BCFC79C009806B0 /* ViewController.swift */; };
 		62A19DF52BCFC79F009806B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62A19DF42BCFC79F009806B0 /* Assets.xcassets */; };
 		62A19DF82BCFC79F009806B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A19DF62BCFC79F009806B0 /* LaunchScreen.storyboard */; };
 		62B8A7CC2BD0E3EE00D3BF6C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B8A7CB2BD0E3EE00D3BF6C /* Coordinator.swift */; };
+		62D73AD12BD6267A001FC82C /* OnboardingPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D73AD02BD6267A001FC82C /* OnboardingPartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +67,10 @@
 		628143442BCFE6BB00E22773 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		628143462BD002A500E22773 /* UIColor+Extensiion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensiion.swift"; sourceTree = "<group>"; };
 		628143492BD0049100E22773 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		6285186D2BD2A19A00FD55A2 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		6285186F2BD2A25500FD55A2 /* OnboardingViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPresenter.swift; sourceTree = "<group>"; };
+		629C9D8A2BD6A59300BA4082 /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
+		629C9D8D2BD6A89E00BA4082 /* SceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneFactory.swift; sourceTree = "<group>"; };
 		62A19DE82BCFC79C009806B0 /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A19DEB2BCFC79C009806B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62A19DED2BCFC79C009806B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +79,7 @@
 		62A19DF72BCFC79F009806B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62A19DF92BCFC79F009806B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62B8A7CB2BD0E3EE00D3BF6C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		62D73AD02BD6267A001FC82C /* OnboardingPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +140,41 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		6285186B2BD29C8900FD55A2 /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				629C9D8C2BD6A86A00BA4082 /* SceneFactory */,
+				6285186C2BD2A13500FD55A2 /* Onboarding */,
+			);
+			path = UILayer;
+			sourceTree = "<group>";
+		};
+		6285186C2BD2A13500FD55A2 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				6285186D2BD2A19A00FD55A2 /* OnboardingViewController.swift */,
+				6285186F2BD2A25500FD55A2 /* OnboardingViewPresenter.swift */,
+				62D73AD02BD6267A001FC82C /* OnboardingPartViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		629C9D892BD6A56D00BA4082 /* ServicesLayer */ = {
+			isa = PBXGroup;
+			children = (
+				629C9D8A2BD6A59300BA4082 /* UserStorage.swift */,
+			);
+			path = ServicesLayer;
+			sourceTree = "<group>";
+		};
+		629C9D8C2BD6A86A00BA4082 /* SceneFactory */ = {
+			isa = PBXGroup;
+			children = (
+				629C9D8D2BD6A89E00BA4082 /* SceneFactory.swift */,
+			);
+			path = SceneFactory;
+			sourceTree = "<group>";
+		};
 		62A19DDF2BCFC79C009806B0 = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +194,8 @@
 		62A19DEA2BCFC79C009806B0 /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				629C9D892BD6A56D00BA4082 /* ServicesLayer */,
+				6285186B2BD29C8900FD55A2 /* UILayer */,
 				62B8A7C82BD0E18200D3BF6C /* NavigationLayer */,
 				628143262BCFE2DE00E22773 /* Resources */,
 				62A19DEB2BCFC79C009806B0 /* AppDelegate.swift */,
@@ -282,12 +329,17 @@
 				620EE3542BD13F0E0073EC4B /* OnboardingCoordinator.swift in Sources */,
 				620EE3522BD13D650073EC4B /* AppCoordinator.swift in Sources */,
 				620EE3582BD15DE60073EC4B /* OrderCoordinator.swift in Sources */,
+				6285186E2BD2A19A00FD55A2 /* OnboardingViewController.swift in Sources */,
 				62A19DEE2BCFC79C009806B0 /* SceneDelegate.swift in Sources */,
 				620EE35C2BD15E8B0073EC4B /* ProfileCoordinator.swift in Sources */,
 				620EE35A2BD15E4C0073EC4B /* ListCoordinator.swift in Sources */,
 				620EE3562BD15D860073EC4B /* HomeCoordinator.swift in Sources */,
 				620EE35E2BD15ED00073EC4B /* TabBarController.swift in Sources */,
+				62D73AD12BD6267A001FC82C /* OnboardingPartViewController.swift in Sources */,
+				629C9D8B2BD6A59300BA4082 /* UserStorage.swift in Sources */,
+				629C9D8E2BD6A89E00BA4082 /* SceneFactory.swift in Sources */,
 				628143472BD002A500E22773 /* UIColor+Extensiion.swift in Sources */,
+				628518702BD2A25500FD55A2 /* OnboardingViewPresenter.swift in Sources */,
 				62B8A7CC2BD0E3EE00D3BF6C /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
