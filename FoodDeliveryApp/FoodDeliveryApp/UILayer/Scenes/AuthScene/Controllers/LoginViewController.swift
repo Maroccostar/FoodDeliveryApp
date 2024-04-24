@@ -7,8 +7,10 @@
 
 import UIKit
 
+// MARK: - LoginViewController
 class LoginViewController: UIViewController {
     
+    // MARK: - Properties
     private let bottomView = BottomView()
 
     override func viewDidLoad() {
@@ -25,11 +27,9 @@ class LoginViewController: UIViewController {
     func googlePress() {
         print("google")
     }
-
-    // MARK: - Navigation
-
 }
 
+// MARK: - Layout
 private extension LoginViewController {
     func setupLayout() {
         setupBottomView()

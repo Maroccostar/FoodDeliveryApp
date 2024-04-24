@@ -7,6 +7,7 @@
 
 import UIKit
 
+// MARK: - BottomView
 class BottomView: UIView {
     
     private let label = UILabel()
@@ -95,6 +96,7 @@ class BottomView: UIView {
     }
 }
 
+// MARK: - Actions
 private extension BottomView {
     @objc func button1Tapped() {
         button1Action?()
