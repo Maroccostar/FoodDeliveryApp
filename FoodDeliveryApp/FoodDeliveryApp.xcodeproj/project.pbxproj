@@ -15,6 +15,8 @@
 		620EE35C2BD15E8B0073EC4B /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620EE35B2BD15E8B0073EC4B /* ProfileCoordinator.swift */; };
 		620EE35E2BD15ED00073EC4B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620EE35D2BD15ED00073EC4B /* TabBarController.swift */; };
 		622C898F2BD90E850066DD48 /* FDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622C898E2BD90E850066DD48 /* FDButton.swift */; };
+		622C89912BD9306B0066DD48 /* FDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622C89902BD9306B0066DD48 /* FDTextField.swift */; };
+		622C89932BD938580066DD48 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622C89922BD938580066DD48 /* LoginPresenter.swift */; };
 		628143362BCFE31600E22773 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 628143292BCFE31600E22773 /* Roboto-Medium.ttf */; };
 		628143372BCFE31600E22773 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6281432A2BCFE31600E22773 /* Roboto-Light.ttf */; };
 		628143382BCFE31600E22773 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6281432B2BCFE31600E22773 /* Roboto-Regular.ttf */; };
@@ -41,7 +43,7 @@
 		62A19DF52BCFC79F009806B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62A19DF42BCFC79F009806B0 /* Assets.xcassets */; };
 		62A19DF82BCFC79F009806B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A19DF62BCFC79F009806B0 /* LaunchScreen.storyboard */; };
 		62A461BE2BD7C24A00AD84EA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A461BD2BD7C24A00AD84EA /* LoginViewController.swift */; };
-		62A461C32BD7C5CC00AD84EA /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A461C22BD7C5CC00AD84EA /* BottomView.swift */; };
+		62A461C32BD7C5CC00AD84EA /* FDBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A461C22BD7C5CC00AD84EA /* FDBottomView.swift */; };
 		62B8A7CC2BD0E3EE00D3BF6C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B8A7CB2BD0E3EE00D3BF6C /* Coordinator.swift */; };
 		62D73AD12BD6267A001FC82C /* OnboardingPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D73AD02BD6267A001FC82C /* OnboardingPartViewController.swift */; };
 /* End PBXBuildFile section */
@@ -55,6 +57,8 @@
 		620EE35B2BD15E8B0073EC4B /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
 		620EE35D2BD15ED00073EC4B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		622C898E2BD90E850066DD48 /* FDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDButton.swift; sourceTree = "<group>"; };
+		622C89902BD9306B0066DD48 /* FDTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDTextField.swift; sourceTree = "<group>"; };
+		622C89922BD938580066DD48 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		628143292BCFE31600E22773 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		6281432A2BCFE31600E22773 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		6281432B2BCFE31600E22773 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
@@ -83,7 +87,7 @@
 		62A19DF72BCFC79F009806B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62A19DF92BCFC79F009806B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62A461BD2BD7C24A00AD84EA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		62A461C22BD7C5CC00AD84EA /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		62A461C22BD7C5CC00AD84EA /* FDBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDBottomView.swift; sourceTree = "<group>"; };
 		62B8A7CB2BD0E3EE00D3BF6C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		62D73AD02BD6267A001FC82C /* OnboardingPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				622C898E2BD90E850066DD48 /* FDButton.swift */,
+				622C89902BD9306B0066DD48 /* FDTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -253,7 +258,7 @@
 		62A461BF2BD7C3EF00AD84EA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				62A461C22BD7C5CC00AD84EA /* BottomView.swift */,
+				62A461C22BD7C5CC00AD84EA /* FDBottomView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -269,6 +274,7 @@
 		62A461C12BD7C4D100AD84EA /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
+				622C89922BD938580066DD48 /* LoginPresenter.swift */,
 			);
 			path = Presenters;
 			sourceTree = "<group>";
@@ -394,6 +400,7 @@
 				620EE3542BD13F0E0073EC4B /* OnboardingCoordinator.swift in Sources */,
 				620EE3522BD13D650073EC4B /* AppCoordinator.swift in Sources */,
 				620EE3582BD15DE60073EC4B /* OrderCoordinator.swift in Sources */,
+				622C89912BD9306B0066DD48 /* FDTextField.swift in Sources */,
 				6285186E2BD2A19A00FD55A2 /* OnboardingViewController.swift in Sources */,
 				62A461BE2BD7C24A00AD84EA /* LoginViewController.swift in Sources */,
 				62A19DEE2BCFC79C009806B0 /* SceneDelegate.swift in Sources */,
@@ -401,11 +408,12 @@
 				620EE35A2BD15E4C0073EC4B /* ListCoordinator.swift in Sources */,
 				620EE3562BD15D860073EC4B /* HomeCoordinator.swift in Sources */,
 				620EE35E2BD15ED00073EC4B /* TabBarController.swift in Sources */,
+				622C89932BD938580066DD48 /* LoginPresenter.swift in Sources */,
 				62D73AD12BD6267A001FC82C /* OnboardingPartViewController.swift in Sources */,
 				629C9D8B2BD6A59300BA4082 /* UserStorage.swift in Sources */,
 				629C9D8E2BD6A89E00BA4082 /* SceneFactory.swift in Sources */,
 				628143472BD002A500E22773 /* UIColor+Extensiion.swift in Sources */,
-				62A461C32BD7C5CC00AD84EA /* BottomView.swift in Sources */,
+				62A461C32BD7C5CC00AD84EA /* FDBottomView.swift in Sources */,
 				622C898F2BD90E850066DD48 /* FDButton.swift in Sources */,
 				628518702BD2A25500FD55A2 /* OnboardingViewPresenter.swift in Sources */,
 				62B8A7CC2BD0E3EE00D3BF6C /* Coordinator.swift in Sources */,
