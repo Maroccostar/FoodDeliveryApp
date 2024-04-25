@@ -13,7 +13,7 @@ protocol LoginViewOutput: AnyObject {
     func goToFacebookLogin()
     func goToGoogleLogin()
     func goToSignIn()
-    func toToSignUp()
+    func tgoToSignUp()
     func goToForgotPass()
     func back()
 }
@@ -33,34 +33,25 @@ extension LoginPresenter: LoginViewOutput {
     func loginStart() {
         
     }
-    
     func registrationStart() {
         
     }
-    
     func goToFacebookLogin() {
         
     }
-    
     func goToGoogleLogin() {
         
     }
-    
     func goToSignIn() {
-        
+        coordinator?.showSignInScene()
     }
-    
-    func toToSignUp() {
-        
+    func tgoToSignUp() {
+        coordinator?.showSignUpScene()
     }
-    
     func goToForgotPass() {
         
     }
-    
     func back() {
         
     }
-    
-    
 }
