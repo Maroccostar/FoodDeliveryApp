@@ -46,6 +46,7 @@
 		62A461C32BD7C5CC00AD84EA /* FDBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A461C22BD7C5CC00AD84EA /* FDBottomView.swift */; };
 		62B8A7CC2BD0E3EE00D3BF6C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B8A7CB2BD0E3EE00D3BF6C /* Coordinator.swift */; };
 		62D73AD12BD6267A001FC82C /* OnboardingPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D73AD02BD6267A001FC82C /* OnboardingPartViewController.swift */; };
+		62DFED262BDD2F4D00059F16 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DFED252BDD2F4D00059F16 /* LoginCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,7 @@
 		62A461C22BD7C5CC00AD84EA /* FDBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDBottomView.swift; sourceTree = "<group>"; };
 		62B8A7CB2BD0E3EE00D3BF6C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		62D73AD02BD6267A001FC82C /* OnboardingPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPartViewController.swift; sourceTree = "<group>"; };
+		62DFED252BDD2F4D00059F16 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +304,7 @@
 				62B8A7CB2BD0E3EE00D3BF6C /* Coordinator.swift */,
 				620EE3512BD13D650073EC4B /* AppCoordinator.swift */,
 				620EE3532BD13F0E0073EC4B /* OnboardingCoordinator.swift */,
+				62DFED252BDD2F4D00059F16 /* LoginCoordinator.swift */,
 				620EE3552BD15D860073EC4B /* HomeCoordinator.swift */,
 				620EE3572BD15DE60073EC4B /* OrderCoordinator.swift */,
 				620EE3592BD15E4C0073EC4B /* ListCoordinator.swift */,
@@ -410,6 +413,7 @@
 				620EE35E2BD15ED00073EC4B /* TabBarController.swift in Sources */,
 				622C89932BD938580066DD48 /* LoginPresenter.swift in Sources */,
 				62D73AD12BD6267A001FC82C /* OnboardingPartViewController.swift in Sources */,
+				62DFED262BDD2F4D00059F16 /* LoginCoordinator.swift in Sources */,
 				629C9D8B2BD6A59300BA4082 /* UserStorage.swift in Sources */,
 				629C9D8E2BD6A89E00BA4082 /* SceneFactory.swift in Sources */,
 				628143472BD002A500E22773 /* UIColor+Extensiion.swift in Sources */,
