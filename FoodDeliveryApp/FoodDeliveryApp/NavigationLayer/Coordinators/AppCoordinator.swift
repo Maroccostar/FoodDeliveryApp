@@ -55,11 +55,11 @@ extension AppCoordinator: CoordinatorFinishDelegate {
         
         switch childCoordinators.type {
         case .onboarding:
-            navigationController?.viewControllers.removeAll()
             showAuthFlow()
+            navigationController?.viewControllers = [navigationController?.viewControllers.last ?? UIViewController()] 
         case .login:
-            navigationController?.viewControllers.removeAll()
             showMainFlow()
+            navigationController?.viewControllers = [navigationController?.viewControllers.last ?? UIViewController()]
         case .app:
             return
         default:
