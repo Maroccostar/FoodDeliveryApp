@@ -67,25 +67,25 @@ struct SceneFactory {
         
         let homeNavigationController = UINavigationController()
         let homeCoordinator = HomeCoordinator(type: .home, navigationController: homeNavigationController)
-        homeNavigationController.tabBarItem = UITabBarItem(title: "Home", image: UIImage(resource: .homeTabb), tag: 0)
+        homeNavigationController.tabBarItem = UITabBarItem(title: "Home", image: UIImage(resource: .homeT), tag: 0)
         homeCoordinator.finishDelegate = finisghDelegate
         homeCoordinator.start()
         
         let orderNavigationController = UINavigationController()
         let orderCoordinator = OrderCoordinator(type: .order, navigationController: orderNavigationController)
-        orderNavigationController.tabBarItem = UITabBarItem(title: "Order", image: UIImage(resource: .orderTab), tag: 1)
+        orderNavigationController.tabBarItem = UITabBarItem(title: "Order", image: UIImage(resource: .orderT), tag: 1)
         orderCoordinator.finishDelegate = finisghDelegate
         orderCoordinator.start()
         
         let listNavigationController = UINavigationController()
         let listCoordinator = ListCoordinator(type: .list, navigationController: listNavigationController)
-        listNavigationController.tabBarItem = UITabBarItem(title: "List", image: UIImage(resource: .listTab), tag: 2)
+        listNavigationController.tabBarItem = UITabBarItem(title: "List", image: UIImage(resource: .listT), tag: 2)
         listCoordinator.finishDelegate = finisghDelegate
         listCoordinator.start()
         
         let profileNavigationController = UINavigationController()
         let profileCoordinator = ProfileCoordinator(type: .profile, navigationController: profileNavigationController)
-        profileNavigationController.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(resource: .profileTab), tag: 3)
+        profileNavigationController.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(resource: .profileT), tag: 3)
         profileCoordinator.finishDelegate = finisghDelegate
         profileCoordinator.start()
         
