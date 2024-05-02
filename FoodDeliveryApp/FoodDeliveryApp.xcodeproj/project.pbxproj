@@ -45,6 +45,8 @@
 		62A461BE2BD7C24A00AD84EA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A461BD2BD7C24A00AD84EA /* LoginViewController.swift */; };
 		62A461C32BD7C5CC00AD84EA /* FDBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A461C22BD7C5CC00AD84EA /* FDBottomView.swift */; };
 		62B8A7CC2BD0E3EE00D3BF6C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B8A7CB2BD0E3EE00D3BF6C /* Coordinator.swift */; };
+		62C36F1D2BE363FC00E4903E /* SmallHCViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C36F1C2BE363FC00E4903E /* SmallHCViewCell.swift */; };
+		62CFA9EE2BE2671900604FAD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CFA9ED2BE2671900604FAD /* HomeViewController.swift */; };
 		62D73AD12BD6267A001FC82C /* OnboardingPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D73AD02BD6267A001FC82C /* OnboardingPartViewController.swift */; };
 		62DFED262BDD2F4D00059F16 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DFED252BDD2F4D00059F16 /* LoginCoordinator.swift */; };
 /* End PBXBuildFile section */
@@ -90,6 +92,8 @@
 		62A461BD2BD7C24A00AD84EA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		62A461C22BD7C5CC00AD84EA /* FDBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDBottomView.swift; sourceTree = "<group>"; };
 		62B8A7CB2BD0E3EE00D3BF6C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		62C36F1C2BE363FC00E4903E /* SmallHCViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallHCViewCell.swift; sourceTree = "<group>"; };
+		62CFA9ED2BE2671900604FAD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		62D73AD02BD6267A001FC82C /* OnboardingPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPartViewController.swift; sourceTree = "<group>"; };
 		62DFED252BDD2F4D00059F16 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +129,7 @@
 		622C898D2BD90D340066DD48 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				62CFA9E92BE265C000604FAD /* HomeScene */,
 				62A461BC2BD7C13300AD84EA /* AuthScene */,
 				6285186C2BD2A13500FD55A2 /* OnboardingScene */,
 			);
@@ -313,6 +318,47 @@
 			path = Coordinators;
 			sourceTree = "<group>";
 		};
+		62C36F1B2BE3638800E4903E /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				62C36F1C2BE363FC00E4903E /* SmallHCViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		62CFA9E92BE265C000604FAD /* HomeScene */ = {
+			isa = PBXGroup;
+			children = (
+				62CFA9EC2BE2662900604FAD /* Views */,
+				62CFA9EB2BE2661500604FAD /* Controllers */,
+				62CFA9EA2BE265E600604FAD /* Presenters */,
+			);
+			path = HomeScene;
+			sourceTree = "<group>";
+		};
+		62CFA9EA2BE265E600604FAD /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		62CFA9EB2BE2661500604FAD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				62CFA9ED2BE2671900604FAD /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		62CFA9EC2BE2662900604FAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				62C36F1B2BE3638800E4903E /* CollectionViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -407,8 +453,10 @@
 				6285186E2BD2A19A00FD55A2 /* OnboardingViewController.swift in Sources */,
 				62A461BE2BD7C24A00AD84EA /* LoginViewController.swift in Sources */,
 				62A19DEE2BCFC79C009806B0 /* SceneDelegate.swift in Sources */,
+				62CFA9EE2BE2671900604FAD /* HomeViewController.swift in Sources */,
 				620EE35C2BD15E8B0073EC4B /* ProfileCoordinator.swift in Sources */,
 				620EE35A2BD15E4C0073EC4B /* ListCoordinator.swift in Sources */,
+				62C36F1D2BE363FC00E4903E /* SmallHCViewCell.swift in Sources */,
 				620EE3562BD15D860073EC4B /* HomeCoordinator.swift in Sources */,
 				620EE35E2BD15ED00073EC4B /* TabBarController.swift in Sources */,
 				622C89932BD938580066DD48 /* LoginPresenter.swift in Sources */,

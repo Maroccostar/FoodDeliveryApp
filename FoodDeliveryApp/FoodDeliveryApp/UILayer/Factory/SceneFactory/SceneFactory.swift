@@ -118,5 +118,9 @@ struct SceneFactory {
         presenter.viewInput = controller
         return controller
     }
-    
+    static func makeHomeScene(coordinator: HomeCoordinator) -> HomeViewController {
+        // TODO: Add presenter
+        let controller = HomeViewController()
+        return controller
+    }
 }
