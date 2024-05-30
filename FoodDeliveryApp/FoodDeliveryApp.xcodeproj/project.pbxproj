@@ -35,6 +35,7 @@
 		6281434A2BD0049100E22773 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628143492BD0049100E22773 /* AppColors.swift */; };
 		6285186E2BD2A19A00FD55A2 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6285186D2BD2A19A00FD55A2 /* OnboardingViewController.swift */; };
 		628518702BD2A25500FD55A2 /* OnboardingViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6285186F2BD2A25500FD55A2 /* OnboardingViewPresenter.swift */; };
+		6295BE8E2C06216B0066A8E9 /* BigHCViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6295BE8D2C06216B0066A8E9 /* BigHCViewCell.swift */; };
 		629C9D8B2BD6A59300BA4082 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629C9D8A2BD6A59300BA4082 /* UserStorage.swift */; };
 		629C9D8E2BD6A89E00BA4082 /* SceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629C9D8D2BD6A89E00BA4082 /* SceneFactory.swift */; };
 		62A19DEC2BCFC79C009806B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A19DEB2BCFC79C009806B0 /* AppDelegate.swift */; };
@@ -44,6 +45,7 @@
 		62A19DF82BCFC79F009806B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A19DF62BCFC79F009806B0 /* LaunchScreen.storyboard */; };
 		62A461BE2BD7C24A00AD84EA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A461BD2BD7C24A00AD84EA /* LoginViewController.swift */; };
 		62A461C32BD7C5CC00AD84EA /* FDBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A461C22BD7C5CC00AD84EA /* FDBottomView.swift */; };
+		62AF57172C072F43002636B1 /* BigVCViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AF57162C072F43002636B1 /* BigVCViewCell.swift */; };
 		62B8A7CC2BD0E3EE00D3BF6C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B8A7CB2BD0E3EE00D3BF6C /* Coordinator.swift */; };
 		62C36F1D2BE363FC00E4903E /* SmallHCViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C36F1C2BE363FC00E4903E /* SmallHCViewCell.swift */; };
 		62CFA9EE2BE2671900604FAD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CFA9ED2BE2671900604FAD /* HomeViewController.swift */; };
@@ -80,6 +82,7 @@
 		628143492BD0049100E22773 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		6285186D2BD2A19A00FD55A2 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		6285186F2BD2A25500FD55A2 /* OnboardingViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPresenter.swift; sourceTree = "<group>"; };
+		6295BE8D2C06216B0066A8E9 /* BigHCViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigHCViewCell.swift; sourceTree = "<group>"; };
 		629C9D8A2BD6A59300BA4082 /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
 		629C9D8D2BD6A89E00BA4082 /* SceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneFactory.swift; sourceTree = "<group>"; };
 		62A19DE82BCFC79C009806B0 /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +94,7 @@
 		62A19DF92BCFC79F009806B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62A461BD2BD7C24A00AD84EA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		62A461C22BD7C5CC00AD84EA /* FDBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDBottomView.swift; sourceTree = "<group>"; };
+		62AF57162C072F43002636B1 /* BigVCViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigVCViewCell.swift; sourceTree = "<group>"; };
 		62B8A7CB2BD0E3EE00D3BF6C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		62C36F1C2BE363FC00E4903E /* SmallHCViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallHCViewCell.swift; sourceTree = "<group>"; };
 		62CFA9ED2BE2671900604FAD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -322,6 +326,8 @@
 			isa = PBXGroup;
 			children = (
 				62C36F1C2BE363FC00E4903E /* SmallHCViewCell.swift */,
+				6295BE8D2C06216B0066A8E9 /* BigHCViewCell.swift */,
+				62AF57162C072F43002636B1 /* BigVCViewCell.swift */,
 			);
 			path = CollectionViewCells;
 			sourceTree = "<group>";
@@ -444,6 +450,7 @@
 			files = (
 				62A19DF02BCFC79C009806B0 /* ViewController.swift in Sources */,
 				62A19DEC2BCFC79C009806B0 /* AppDelegate.swift in Sources */,
+				6295BE8E2C06216B0066A8E9 /* BigHCViewCell.swift in Sources */,
 				628143452BCFE6BB00E22773 /* UIFont+Extension.swift in Sources */,
 				6281434A2BD0049100E22773 /* AppColors.swift in Sources */,
 				620EE3542BD13F0E0073EC4B /* OnboardingCoordinator.swift in Sources */,
@@ -467,6 +474,7 @@
 				628143472BD002A500E22773 /* UIColor+Extensiion.swift in Sources */,
 				62A461C32BD7C5CC00AD84EA /* FDBottomView.swift in Sources */,
 				622C898F2BD90E850066DD48 /* FDButton.swift in Sources */,
+				62AF57172C072F43002636B1 /* BigVCViewCell.swift in Sources */,
 				628518702BD2A25500FD55A2 /* OnboardingViewPresenter.swift in Sources */,
 				62B8A7CC2BD0E3EE00D3BF6C /* Coordinator.swift in Sources */,
 			);
