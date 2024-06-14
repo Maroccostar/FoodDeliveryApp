@@ -17,6 +17,8 @@
 		622C898F2BD90E850066DD48 /* FDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622C898E2BD90E850066DD48 /* FDButton.swift */; };
 		622C89912BD9306B0066DD48 /* FDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622C89902BD9306B0066DD48 /* FDTextField.swift */; };
 		622C89932BD938580066DD48 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622C89922BD938580066DD48 /* LoginPresenter.swift */; };
+		623F363C2C1C8630006F222B /* FDCollectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623F363B2C1C8630006F222B /* FDCollectionTitle.swift */; };
+		626BAF122C1C17A20019ED4B /* FDSearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626BAF112C1C17A20019ED4B /* FDSearchField.swift */; };
 		628143362BCFE31600E22773 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 628143292BCFE31600E22773 /* Roboto-Medium.ttf */; };
 		628143372BCFE31600E22773 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6281432A2BCFE31600E22773 /* Roboto-Light.ttf */; };
 		628143382BCFE31600E22773 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6281432B2BCFE31600E22773 /* Roboto-Regular.ttf */; };
@@ -64,6 +66,8 @@
 		622C898E2BD90E850066DD48 /* FDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDButton.swift; sourceTree = "<group>"; };
 		622C89902BD9306B0066DD48 /* FDTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDTextField.swift; sourceTree = "<group>"; };
 		622C89922BD938580066DD48 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		623F363B2C1C8630006F222B /* FDCollectionTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDCollectionTitle.swift; sourceTree = "<group>"; };
+		626BAF112C1C17A20019ED4B /* FDSearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDSearchField.swift; sourceTree = "<group>"; };
 		628143292BCFE31600E22773 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		6281432A2BCFE31600E22773 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		6281432B2BCFE31600E22773 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 			children = (
 				622C898E2BD90E850066DD48 /* FDButton.swift */,
 				622C89902BD9306B0066DD48 /* FDTextField.swift */,
+				626BAF112C1C17A20019ED4B /* FDSearchField.swift */,
+				623F363B2C1C8630006F222B /* FDCollectionTitle.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -462,6 +468,7 @@
 				62A19DEE2BCFC79C009806B0 /* SceneDelegate.swift in Sources */,
 				62CFA9EE2BE2671900604FAD /* HomeViewController.swift in Sources */,
 				620EE35C2BD15E8B0073EC4B /* ProfileCoordinator.swift in Sources */,
+				626BAF122C1C17A20019ED4B /* FDSearchField.swift in Sources */,
 				620EE35A2BD15E4C0073EC4B /* ListCoordinator.swift in Sources */,
 				62C36F1D2BE363FC00E4903E /* SmallHCViewCell.swift in Sources */,
 				620EE3562BD15D860073EC4B /* HomeCoordinator.swift in Sources */,
@@ -476,6 +483,7 @@
 				622C898F2BD90E850066DD48 /* FDButton.swift in Sources */,
 				62AF57172C072F43002636B1 /* BigVCViewCell.swift in Sources */,
 				628518702BD2A25500FD55A2 /* OnboardingViewPresenter.swift in Sources */,
+				623F363C2C1C8630006F222B /* FDCollectionTitle.swift in Sources */,
 				62B8A7CC2BD0E3EE00D3BF6C /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
